@@ -34,8 +34,8 @@ from cosmos_predict1.diffusion.training.models.model_image import DiffusionModel
 from cosmos_predict1.diffusion.training.models.model_image import diffusion_fsdp_class_decorator
 from cosmos_predict1.utils import distributed, log, misc
 
-l2_norm_impl = amp_C.multi_tensor_l2norm
-multi_tensor_scale_impl = amp_C.multi_tensor_scale
+# l2_norm_impl = amp_C.multi_tensor_l2norm
+# multi_tensor_scale_impl = amp_C.multi_tensor_scale
 
 # key to check if the video data is normalized or image data is converted to video data
 # to avoid apply normalization or augment image dimension multiple times
