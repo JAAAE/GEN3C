@@ -16,7 +16,7 @@
 import math
 from typing import Any, Callable, Dict, List, Mapping, Optional, Tuple, Union
 
-import amp_C
+# import amp_C
 import torch
 from apex.multi_tensor_apply import multi_tensor_applier
 from einops import rearrange
